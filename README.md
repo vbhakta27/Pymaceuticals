@@ -38,3 +38,8 @@ Calculate the correlation coefficient and linear regression model between mouse 
 
 
 Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+
+## Conclusions
+1) Ramicane and Capomulin were the only two drugs that reduced the tumor sizes. They were the only two drugs with average final tumor volume less than the starting tumor volume (45 mm3) for each mouse. The rest of the drugs just slowed the tumor growths down or were ineffective. 
+2) The heavier the mouse the more likely they will have a larger tumor volume. Sex of the mouse did not matter since the data was split evenly between genders.
+3) Data might be slightly skewed for Ramican and Capomulin because those two drugs had more data points than the rest of the drugs.
