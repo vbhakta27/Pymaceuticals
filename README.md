@@ -6,38 +6,39 @@ As a senior data analyst at the company, you've been given access to the complet
 ## Data
 Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
+<img src="images/summary_statistics.png">
 
+
+## Plots
 Generate a bar plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the number of data points for each treatment regimen.
 
-
-NOTE: These plots should look identical.
-
+<img src="images/bar_plot_pandas.png"> <img src="images/bar_plot_pyplot.png">
 
 
 Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
 
-
-NOTE: These plots should look identical.
-
+<img src="images/pie_chart_pandas.png"> <img src="images/pie_chart_pyplot.png">
 
 
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
+<img src="images/quartiles_outliers.png">
 
-Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
+
+Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot.
+
+<img src="images/boxplot.png">
 
 
 Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 
-
-Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
-
-
-Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+<img src="images/line_plot_capomulin.png">
 
 
-Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen. Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+
+<img src="images/scatter_plot_capomulin.png">
+
 
 ## Conclusions
 1) Ramicane and Capomulin were the only two drugs that reduced the tumor sizes. They were the only two drugs with average final tumor volume less than the starting tumor volume (45 mm3) for each mouse. The rest of the drugs just slowed the tumor growths down or were ineffective. 
